@@ -44,3 +44,79 @@ Penjelasan Alur algoritma pada program diatas:
    
 Program ini pada dasarnya membangkitkan N buah angka random antara 0-1, namun hanya mencetak angka-angka yang nilainya kurang dari 0.5.
 
+![Bespem per 7 (2)](https://github.com/user-attachments/assets/5f1823df-601d-4681-a317-eebbf96273d8)
+
+Penjelasan Alur algoritma pada program diatas:
+
+1. Inisialisasi awal:
+
+      *modal_awal = 10000000
+
+      *laba_bulanan = [] (list kosong untuk menyimpan laba per bulan)
+
+      *total_laba = 0
+
+2. Perulangan untuk bulan 1-8:
+
+      *Menggunakan for loop for bulan in range(1, 9)
+
+      *Perhitungan laba berdasarkan kondisi:
+
+         *Bulan 1-2: laba = 0 (belum ada laba)
+
+         *Bulan 3-4: laba = 1% dari modal awal (0.01 × modal_awal)
+
+         *Bulan 5-7: laba = 5% dari modal awal (0.05 × modal_awal)
+
+         *Bulan 8: laba = 2% dari modal awal (0.02 × modal_awal)
+
+      *Setiap laba bulanan ditambahkan ke list laba_bulanan
+
+      *Total laba diakumulasi
+
+3. Menampilkan hasil:
+
+      *Menggunakan enumerate untuk menampilkan laba per bulan
+
+      *Format output: "laba bulan ke-[nomor_bulan] sebesar: [jumlah_laba]"
+
+      *Di akhir menampilkan total laba keseluruhan
+
+Dari output yang terlihat:
+
+      *Bulan 1-2: Rp 0
+
+      *Bulan 3-4: Rp 1.000.000
+
+      *Bulan 5-7: Rp 5.000.000
+
+      *Bulan 8: Rp 2.000.000
+
+Total laba: Rp 19.000.000
+
+Program ini mensimulasikan perhitungan laba bulanan dari sebuah investasi dengan persentase keuntungan yang berbeda-beda tiap periodenya.
+
+alur algoritma dari kode tersebut:
+
+Inisialisasi:
+Program dimulai dengan mendefinisikan fungsi bernama atm_simulator().
+Fungsi ini akan menjalankan program ATM secara berulang.
+Variabel saldo diinisialisasi (tidak ditampilkan dalam kode ini) sebagai saldo awal pengguna.
+Loop Utama:
+Fungsi atm_simulator() menggunakan loop while True: untuk terus menampilkan menu ATM selama pengguna tidak memilih untuk keluar.
+Menampilkan Menu:
+Di dalam loop, program menampilkan menu ATM yang berisi pilihan untuk "Tarik Uang" dan "Keluar".
+Meminta Input:
+Program meminta input dari pengguna untuk memilih menu dengan menggunakan input("Pilih menu (1/2): ").
+Memeriksa Pilihan:
+Program memeriksa pilihan pengguna menggunakan if dan elif statement:
+Jika pilihan 1 (Tarik Uang):
+Program meminta input jumlah penarikan dari pengguna menggunakan int(input("Masukkan jumlah penarikan: ")).
+Program memeriksa apakah jumlah penarikan valid:
+Jika jumlah penarikan lebih besar dari saldo: Program menampilkan pesan "Maaf, saldo tidak mencukupi!".
+Jika jumlah penarikan kurang dari atau sama dengan 0: Program menampilkan pesan "Jumlah penarikan tidak valid!".
+Jika jumlah penarikan valid: Program mengurangi saldo dengan jumlah penarikan dan menampilkan pesan "Penarikan berhasil!".
+Jika pilihan 2 (Keluar): Program menampilkan pesan "Terima kasih telah menggunakan ATM!" dan keluar dari loop menggunakan break.
+Jika pilihan tidak valid: Program menampilkan pesan "Pilihan tidak valid!".
+Mengulang Loop:
+Setelah proses pilihan selesai, program kembali ke awal loop untuk menampilkan menu ATM kembali.
