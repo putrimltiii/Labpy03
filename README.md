@@ -44,6 +44,8 @@ Penjelasan Alur algoritma pada program diatas:
    
 Program ini pada dasarnya membangkitkan N buah angka random antara 0-1, namun hanya mencetak angka-angka yang nilainya kurang dari 0.5.
 
+Latihan 2
+
 ![Bespem per 7 (2)](https://github.com/user-attachments/assets/5f1823df-601d-4681-a317-eebbf96273d8)
 
 Penjelasan Alur algoritma pada program diatas:
@@ -95,6 +97,8 @@ Dari output yang terlihat:
 Total laba: Rp 19.000.000
 
 Program ini mensimulasikan perhitungan laba bulanan dari sebuah investasi dengan persentase keuntungan yang berbeda-beda tiap periodenya.
+
+Latihan 3
 
 ![Baspem per 7 (3)](https://github.com/user-attachments/assets/72d40e7b-0eab-4cae-aa3f-6e87ad3e9a76)
 
